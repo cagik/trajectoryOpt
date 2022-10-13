@@ -1,13 +1,13 @@
-# path_Optimizer
+# trajectoryOpt
 
-this code is based on https://github.com/libai1943/CartesianPlanner
+this code is based on https://github.com/cagik/path_Optimizer
 
-I changed some of the variable constraints and the objective function to optmize my trajectory
+there is a new corridor-building method and new collision-avoidence constraints. And we can solve the NLP quickly.
 
 ## how to run
 ```
-git clone https://github.com/cagik/path_Optimizer.git
-cd path_Optimizer/bin
+git clone https://github.com/cagik/trajectoryOpt.git
+cd trajectoryOpt/bin
 cmake ..
 make
 ./cartesianPlanner_demo
